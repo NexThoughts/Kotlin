@@ -9,6 +9,6 @@ fun String.containsSpaces(): Boolean {
 fun main(args: Array<String>) {
     {
         val str="Hi chetan"
-        str.containsSpaces()
+        println(str.containsSpaces())
     }
 }

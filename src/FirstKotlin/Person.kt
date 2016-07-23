@@ -9,6 +9,10 @@ package FirstKotlin
 
 class Person(var name: String, var age: Int, var college: String?)
 {
+//intialiazation
+    init {
+        println("Customer initialized with value ${name}")
+    }
 //adding more constructor called as  Secondary constructors
     var email: String = ""
 

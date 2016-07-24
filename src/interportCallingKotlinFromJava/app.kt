@@ -1,5 +1,5 @@
-package interport;
-import interport.Person
+package interportCallingKotlinFromJava;
+import interportCallingKotlinFromJava.Person
 
 fun Person.isAdult(): Boolean {
 

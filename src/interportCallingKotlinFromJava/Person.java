@@ -1,4 +1,4 @@
-package interport;
+package interportCallingKotlinFromJava;
 
 /**
  * Created by chetan on 13/7/16.

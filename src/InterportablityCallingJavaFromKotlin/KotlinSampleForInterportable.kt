@@ -1,6 +1,6 @@
-package Interportablity
+package InterportablityCallingJavaFromKotlin
 
-import Interportablity.Customer
+import InterportablityCallingJavaFromKotlin.Customer
 
 /**
  * Created by chetan on 13/7/16.

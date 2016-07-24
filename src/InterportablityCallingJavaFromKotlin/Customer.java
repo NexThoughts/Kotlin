@@ -1,4 +1,4 @@
-package Interportablity;
+package InterportablityCallingJavaFromKotlin;
 
 /**
  * Created by chetan on 13/7/16.

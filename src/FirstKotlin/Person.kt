@@ -7,16 +7,16 @@ package FirstKotlin
 //    var college: String? = null
 //}
 
-class Person(var name: String, var age: Int, var college: String?)
-{
-//intialiazation
+class Person(var name: String, var age: Int, var college: String?) {
+    //intialiazation
     init {
         println("Customer initialized with value ${name}")
     }
-//adding more constructor called as  Secondary constructors
+
+    //adding more constructor called as  Secondary constructors
     var email: String = ""
 
-    constructor(name:String, age:Int, college: String?, email: String) : this(name, age, college) {
+    constructor(name: String, age: Int, college: String?, email: String) : this(name, age, college) {
         this.email = email
     }
 
@@ -29,5 +29,6 @@ class Person(var name: String, var age: Int, var college: String?)
     }
 
 }
+
 var jake = Person("Jake Hill", 24, "Stephen's College")
 

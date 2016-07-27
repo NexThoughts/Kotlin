@@ -1,4 +1,5 @@
 package whenLikeSwitch.whenDemo
+
 fun main(args: Array<String>) {
     val age = 17
 

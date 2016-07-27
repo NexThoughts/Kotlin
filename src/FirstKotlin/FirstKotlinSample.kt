@@ -16,7 +16,7 @@ fun main(args: Array<String>) {
 
     println("Hello, World!")
     var jake = Person("Jake Hill", 24, "Stephen's College")
-var jon = Person("Jake Hill", 27, "Stephen's College", "jake.hill@example.com")
+    var jon = Person("Jake Hill", 27, "Stephen's College", "jake.hill@example.com")
 
     println(jake.age)
 

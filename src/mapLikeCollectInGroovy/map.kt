@@ -1,4 +1,4 @@
-package mapLikecollect
+package mapLikeCollectInGroovy
 fun main(args: Array<String>)
 {
     val numbers: Array<Int> = arrayOf(1, 2, 3, 4, 5)

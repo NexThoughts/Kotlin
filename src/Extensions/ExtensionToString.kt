@@ -6,8 +6,8 @@ package Extensions
 fun String.containsSpaces(): Boolean {
     return this.contains(" ")
 }
-fun main(args: Array<String>)
-    {
-        val str="Hi chetan"
-        println(str.containsSpaces())
-    }
+
+fun main(args: Array<String>) {
+    val str = "Hi chetan"
+    println(str.containsSpaces())
+}

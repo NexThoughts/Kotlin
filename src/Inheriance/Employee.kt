@@ -20,10 +20,5 @@ open class Employee(name: String, age: Int, college: String?, var company: Strin
         }
     }
 
-    //    override fun hashCode(): Int{
-    //        return company.hashCode()
-    //    }
-    override fun toString(): String {
-        return company
-    }
+
 }

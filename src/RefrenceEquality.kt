@@ -4,11 +4,14 @@ import Inheriance.Employee
 fun main(args: Array<String>) {
 
 
-    var person1= Employee("Jake Hill", 11, "Stephen's College", "Raymond")
-    var person2= Employee("Jake Hill", 11, "Stephen's College", "Raymond")
-    var person3=person1
-    println(person1===person2)
-    println(person1==person2)
+data class IntWrapper(val value: Int)
+data class IntPair(val key: Int) {
+    var value: Int? = null
+}
 
+val a = IntWrapper(1)
+val b = IntWrapper(1)
+println(a == b) // true, as a structural equality is compared
+println(a === b) // false
 
 }
